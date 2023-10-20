@@ -714,7 +714,7 @@ button {
 .portfolio-popup.open .pp-content {
   opacity: 1;
   transform: scale(1);
-  transform: all 0.5s ease-in-out; /*should it be transition?*/
+  transition: all 0.5s ease-in-out;
 }
 .pp-header {
   position: relative;
